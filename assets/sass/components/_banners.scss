@@ -1,0 +1,16 @@
+.banners {
+  text-align: center;
+  margin: 15px 0;
+  img{
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .banners {
+    img{
+      width: 60%;
+    }
+  }
+}

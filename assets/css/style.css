@@ -1,0 +1,177 @@
+body {
+  font-family: "ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 16px;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #060606;
+}
+
+p {
+  font-size: 14px;
+}
+
+header {
+  background-color: #000000;
+}
+header .navbar button i {
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #000000;
+}
+footer #send {
+  background-color: #FFAF6D;
+  border-radius: 5px;
+}
+
+#main-container {
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.sec {
+  border: 1px solid #000000;
+  padding: 0.8rem;
+}
+.sec#cursos-2020 .fotoperfil {
+  text-align: center;
+}
+.sec#cursos-2020 .fotoperfil .user {
+  border-radius: 50rem;
+  border: 1px solid #000000;
+  margin-bottom: 0.6rem;
+}
+.sec#cursos-2020 .fotoperfil ul {
+  justify-content: center;
+}
+.sec#cursos-2020 .fotoperfil ul li {
+  margin: 0 0.5rem;
+}
+.sec#cursos-2020 .fotoperfil ul li i {
+  margin: 0;
+}
+
+.banners {
+  text-align: center;
+  margin: 15px 0;
+}
+.banners img {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .banners img {
+    width: 60%;
+  }
+}
+.article-default {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cdcdcd;
+}
+.article-default h2 {
+  margin: 0.7rem 0;
+}
+
+.redessociales {
+  margin: 0.8rem 0;
+}
+.redessociales ul {
+  display: flex;
+}
+.redessociales ul li {
+  margin-right: 1rem;
+}
+.redessociales ul li a {
+  text-decoration: none;
+}
+.redessociales ul li i {
+  margin-right: 0.35rem;
+}
+.redessociales ul li i, .redessociales ul li a {
+  color: #000000;
+}
+
+@keyframes animate-gear {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes animate-code {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+svg * {
+  transform-box: fill-box;
+}
+
+.animacion .gear {
+  transform-origin: center;
+  animation: animate-gear 2s linear 0s infinite;
+}
+.animacion .code {
+  animation: animate-code 1s linear 0s infinite alternate;
+}
+.animacion svg {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .animacion svg {
+    width: 400px;
+  }
+}
+/*@import 'abstracts/utilities';
+
+
+@import 'components/buttons';
+@import 'components/logo';
+
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';
+
+
+@import 'base/typography';
+
+@import 'layout/banners';
+@import 'layout/box';
+@import 'layout/foto';
+@import 'layout/items';
+@import 'layout/lineablanca';
+@import 'layout/login';
+@import 'layout/videos';*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+@keyframes animate-gear {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
+@keyframes animate-code {
+    from { transform: translateX(0px); }
+    to { transform: translateX(100px); }
+}
+svg * {
+    transform-box: fill-box;
+}
+.animacion{
+    .gear{
+        transform-origin: center;
+        animation: animate-gear 2s linear 0s infinite;
+    }
+    .code{
+        animation: animate-code 1s linear 0s infinite alternate;
+    }
+    svg{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .animacion{
+        svg{
+          width: 400px;
+        }
+      }
+  }

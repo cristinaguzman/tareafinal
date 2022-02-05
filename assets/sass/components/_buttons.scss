@@ -1,0 +1,21 @@
+.button {
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button_mensaje {
+  font-size:$font-size-x-small;
+  background-color:$sky-blue;
+  color:$white;
+}
+
+.button_seguir {
+  font-size:$font-size-x-small;
+  background-color:$persimmon;
+  color:$white;
+}

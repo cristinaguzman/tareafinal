@@ -1,0 +1,23 @@
+.sec{
+  border: 1px solid $black;
+  padding: 0.8rem;
+  &#cursos-2020{
+    .fotoperfil{
+      text-align: center;
+      .user{
+        border-radius: 50rem;
+        border: 1px solid $black;
+        margin-bottom: 0.6rem;
+      }
+      ul{
+        justify-content: center;
+        li{
+          margin: 0 0.5rem;
+          i{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
